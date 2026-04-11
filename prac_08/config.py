@@ -1,5 +1,4 @@
-DB_NAME = "phonebook_db"
-DB_USER = "Daulet"
 DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_PASS = "12345678"
+DB_NAME = "phonebook"
+DB_USER = "postgres"
+DB_PASSWORD = "5678"
