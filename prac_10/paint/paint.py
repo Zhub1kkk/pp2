@@ -4,7 +4,7 @@ import pygame
 # Settings
 # -----------------------------------
 WIDTH, HEIGHT = 900, 650
-TOOLBAR_HEIGHT = 90
+TOOLBAR_HEIGHT = 110
 CANVAS_Y = TOOLBAR_HEIGHT
 
 WHITE = (255, 255, 255)
@@ -81,8 +81,8 @@ def draw_toolbar(screen, current_tool, current_color, brush_size, font):
 
     # Info text
     draw_text(screen, f"Size: {brush_size}", 360, 52, font)
-    draw_text(screen, "Keys: B-brush  R-rectangle  C-circle  E-eraser", 480, 10, font)
-    draw_text(screen, "+ / - to change size", 480, 35, font)
+    draw_text(screen, "Keys: B-brush  R-rectangle  C-circle  E-eraser", 480, 52, font)
+    draw_text(screen, "+ / - to change size", 480, 80, font)
 
     return tool_buttons, color_buttons
 
